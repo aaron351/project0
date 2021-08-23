@@ -1,0 +1,70 @@
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    display: blocks;
+}
+
+#topic2{
+    margin-right: auto;
+    margin-left: auto ;
+    width: 80%;
+    margin-top: 10pt;
+    text-align: center;
+    background-color:#343a40 !important;
+}
+
+#topic2, th{
+    color: aqua !important;
+}  
+
+.hist{
+    margin-left: auto;
+    margin-right: auto;
+    display: blocks;
+    width: 80%;
+}
+
+.eti{
+    padding-top: 0%;
+    text-align: center;
+    display: blocks;
+}
+
+.hist > p{
+    text-align: justify;
+    color:#076C86;
+}
+
+td .text p{
+    text-align: justify;
+    color: red !important;
+}
+
+td{
+    vertical-align: middle !important;
+}
+.colum{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.colum_ima{
+    max-width: 100%;
+    height: auto;
+    border-radius: 50pt;
+}
+
+@media only screen and (max-width: 334px) {
+    #topic2{
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .colum_ima{
+        max-width: 50%;
+        height: auto;
+        }   
+    }
+
