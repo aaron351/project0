@@ -1,0 +1,117 @@
+#topic3{
+    margin-right: auto;
+    margin-left: auto ;
+    width: 80%;
+    margin-top: 10pt;
+    text-align: center;
+    font-size: 50px;
+}
+
+.hist2{
+    max-width: 90%;
+    margin-right: auto;
+    margin-left: auto ;
+    text-align: justify;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.body2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-bottom: 40pt;
+}
+
+.sub1{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 95%;
+}
+
+.sub2{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: auto;
+    display: flexbox;
+}
+
+.imagpro{
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    display: flexbox;
+}
+
+.cuad{
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    display: flexbox;
+}
+
+.subprogr{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5pt;
+}
+
+.nprogram, #topic3{
+    color: blueviolet;
+}
+
+.nprogram{
+    text-align: center;
+    font-size: 40px;
+}
+
+.content{
+    width: 100%;
+}
+
+.conten{
+    text-align: justify;
+    font-size: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    #topic3{
+        font-size: 25px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .nprogram{
+        font-size: 25px;
+    }
+    .conten{
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (max-width: 300px) {
+    #topic3{
+        font-size: 15px;
+    }
+    h2{
+        font-size: 18px;
+    }
+    .nprogram{
+        font-size: 20px;
+    }
+    .conten{
+        font-size: 15px;
+    }
+
+}
+

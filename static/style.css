@@ -42,7 +42,7 @@
 
 .cont{
     padding: 5px;
-    text-align: justify;
+    text-align: justify !important;
     color:#000080
 }
 

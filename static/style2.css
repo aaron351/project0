@@ -25,7 +25,7 @@
 }
 
 .eti{
-    padding-top: 50%;
+    padding-top: 0%;
     text-align: center;
     display: blocks;
 }
@@ -36,12 +36,13 @@
 }
 
 td .text p{
-    margin-top: 10pt;
     text-align: justify;
     color: red !important;
 }
 
-
+td{
+    vertical-align: middle !important;
+}
 .colum{
     display: block;
     margin-right: auto;
