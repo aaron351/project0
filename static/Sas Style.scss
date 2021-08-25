@@ -1,0 +1,15 @@
+$marine:whitesmoke;
+$cafe:brown;
+body{
+    #N1, #N2, #N3{
+        background-color:$marine;
+    }
+    .card{
+        background-color:$cafe;
+    }
+    .card-text, .card-title{
+        color: $marine;
+    }
+}
+
+                 

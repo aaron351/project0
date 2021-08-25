@@ -1,11 +1,68 @@
-.edge{
-    width: 100%;
-    height: 50%;
+@media only screen and (max-width: 910px) {
+    .card-img-top{
+        max-width: 80%;
+}
+
+@media only screen and (min-width: 910px) {
+    .card-img-top{
+        max-width: 80%;
+    }
+    #N0{
+        height: 50%;
+        background-color: brown !important;
+    }
+}
+
+#principal{
+    margin-bottom: 10pt;
+}
+
+#N1, #N2, #N3{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10pt;
+    height: 100%;
+}
+
+.card-img-top{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    padding-top: 10pt ;
+}
+
+.card{
+    max-width: 100%;
     margin-left: auto;
     margin-right: auto;
 }
 
-.robot{
-    width: 100%;    
+.card-title{
+    text-align: center;
+}
 
+.card-text, p{
+    text-align: justify !important;
+}
+
+#N0{
+    height: 50%;
+    background-color: brown !important;
+}
+
+.img-fluid{
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+h1{
+    text-align: center;
+    color: bisque;
+}
+
+#histor{
+    color:whitesmoke;
 }
