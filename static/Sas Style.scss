@@ -1,15 +1,32 @@
-$marine:whitesmoke;
-$cafe:brown;
-body{
-    #N1, #N2, #N3{
-        background-color:$marine;
-    }
-    .card{
-        background-color:$cafe;
-    }
-    .card-text, .card-title{
-        color: $marine;
-    }
+$marine: whitesmoke;
+$cafe: brown;
+
+%prop_car {
+  background-color: $marine;
 }
 
-                 
+%color_car {
+  background-color: $cafe;
+}
+
+body {
+  .card {
+    @extend %color_car;
+  }
+  #N1 {
+    @extend %prop_car;
+  }
+  #N2 {
+    @extend %prop_car;
+  }
+  #N3 {
+    @extend %prop_car;
+  }
+  #N0 {
+    @extend %color_car;
+  }
+  .card-text,
+  .card-title {
+    color: $marine;
+  }
+}

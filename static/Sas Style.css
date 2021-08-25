@@ -2,11 +2,12 @@ body #N1, body #N2, body #N3 {
   background-color: whitesmoke;
 }
 
-body .card {
+body .card, body #N0 {
   background-color: brown;
 }
 
-body .card-text, body .card-title {
+body .card-text,
+body .card-title {
   color: whitesmoke;
 }
 /*# sourceMappingURL=Sas Style.css.map */

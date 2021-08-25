@@ -1,68 +1,63 @@
 @media only screen and (max-width: 910px) {
-    .card-img-top{
-        max-width: 80%;
+  .card-img-top {
+    max-width: 50%;
+  }
 }
 
-@media only screen and (min-width: 910px) {
-    .card-img-top{
-        max-width: 80%;
-    }
-    #N0{
-        height: 50%;
-        background-color: brown !important;
-    }
+#principal {
+  margin-bottom: 10pt;
 }
 
-#principal{
-    margin-bottom: 10pt;
+#N1,
+#N2,
+#N3 {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10pt;
+  height: 100%;
 }
 
-#N1, #N2, #N3{
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding-top: 10pt;
-    height: 100%;
+#N3 {
 }
 
-.card-img-top{
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 90%;
-    padding-top: 10pt ;
+.card-img-top {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 90%;
+  padding-top: 10pt;
 }
 
-.card{
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+.card {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.card-title{
-    text-align: center;
+.card-title {
+  text-align: center;
 }
 
-.card-text, p{
-    text-align: justify !important;
+.card-text,
+p {
+  text-align: justify !important;
+  height: 100%;
+  font-size: 10pt;
 }
 
-#N0{
-    height: 50%;
-    background-color: brown !important;
+.img-fluid {
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
-.img-fluid{
-    max-width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+h1 {
+  text-align: center;
+  color: bisque;
 }
 
-h1{
-    text-align: center;
-    color: bisque;
-}
-
-#histor{
-    color:whitesmoke;
+#histor {
+  color: whitesmoke;
+  font-size: 20pt;
 }
